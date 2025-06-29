@@ -27,7 +27,7 @@ else:
 
 
 def start_assistant():
-    speak("Namaste! I'm Veda AI, your voice assistant. How can I help you?")
+    speak("Namaste! I'm Veda AI, your desi voice assistant. How can I help you?")
     while True:
         command = listen()
 
