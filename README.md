@@ -2,9 +2,6 @@
 
 > A powerful **offline multilingual voice assistant** that listens for your voice, responds with a beautiful female voice, tells jokes, opens apps, and saves reminders — built in Python.
 
-
-
-
 ---
 
 ## Features
@@ -66,3 +63,36 @@ veda-ai/
  GPT-style intelligent fallback
 
  Hindi voice recognition
+
+ ## Upcoming Features Which Are Available Only Online
+
+Claude/OpenAI integration 
+
+Online Wikipedia search
+
+Online weather reports
+
+AI-based summary or translation
+
+Web scraping or automation
+
+# Troubleshooting & Error Guide
+
+### 1. File NOT FOUND: public/trigger.txt
+ Cause: Missing wake-word trigger file.
+ Fix: Created new folder public and in that created a new file trigger.txt 
+ public/trigger.txt
+
+### 2. image not uploading 
+ Cause: Due to .jpg format but src use .png format
+ Fix: Created the image in .png format.
+
+### 3. Language Error 
+ Cause: Because of different languages i was not able to write them in their native format
+ Fix: With the help of translator I fixed them.
+
+### 4. Speech Wake Word
+ Cause: Because of missing of trigger.txt file
+ Fix: Created and moved to the right folder
+
+### 5. 
