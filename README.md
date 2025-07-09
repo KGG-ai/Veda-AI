@@ -94,7 +94,7 @@ npm start
 ### 3. Language Error 
  - Cause: Missing native font support
  - Fix: Used deep_translator for fixes
-### 4. Speech Wake Word
+### 4. Wake Word Not Triggering
  - Cause: Missing trigger.txt or incorrect path
  - Fix: Validate file placement and content
  
