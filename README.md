@@ -51,20 +51,11 @@ veda-ai/
 -> Terminal Mockup:
 ![Terminal Screenshot](https://github.com/user-attachments/assets/ed4f87b1-2bb0-4ae8-8e28-404e0349d05a)
 
+-> Frontend UI:
+![Fontend UI](https://github.com/user-attachments/assets/73655096-f22d-4ea0-a772-062dbc154a6f)
 
 
-## Future Upgrades
- React-based Desktop UI
-
- Veda app for mobile
-
- Custom voice pack selector
-
- GPT-style intelligent fallback
-
- Hindi voice recognition
-
- ## Upcoming Features Which Are Available Only Online
+ ## Planned Upgrades
 
 Claude/OpenAI integration 
 
@@ -76,6 +67,20 @@ AI-based summary or translation
 
 Web scraping or automation
 
+## How to Run Locally
+
+```bash
+
+# 1. Start Backend (Python)
+cd backend
+python main.py
+
+# 2. Start Frontend (React)
+cd veda-frontend
+npm install
+npm start
+
+```
 # Troubleshooting & Error Guide
 
 ### 1. File NOT FOUND: public/trigger.txt
@@ -94,4 +99,9 @@ Web scraping or automation
 ### 4. Speech Wake Word
  Cause: Because of missing of trigger.txt file
  Fix: Created and moved to the right folder
+
+### AUTHOR 
+Komal Rajput 
+  Currently building real world projects to showcase and enhance my skills.
+  
 
