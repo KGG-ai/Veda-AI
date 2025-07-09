@@ -85,21 +85,19 @@ npm start
 
 ### 1. File NOT FOUND: public/trigger.txt
  Cause: Missing wake-word trigger file.
- Fix: Created new folder public and in that created a new file trigger.txt 
- public/trigger.txt
+ Fix: Create public/trigger.txt manually
 
 ### 2. image not uploading 
- Cause: Due to .jpg format but src use .png format
- Fix: Created the image in .png format.
+ Cause: File format mismatch
+ Fix: Ensure image is .png and matches src
 
 ### 3. Language Error 
- Cause: Because of different languages i was not able to write them in their native format
- Fix: With the help of translator I fixed them.
-
+ Cause: Missing native font support
+ Fix: Used deep_translator for fixes
 ### 4. Speech Wake Word
- Cause: Because of missing of trigger.txt file
- Fix: Created and moved to the right folder
-
+ Cause: Missing trigger.txt or incorrect path
+ Fix: Validate file placement and content
+ 
 ### Author 
 Komal Rajput 
 - Final-year BCA student
