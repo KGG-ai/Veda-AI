@@ -95,4 +95,3 @@ Web scraping or automation
  Cause: Because of missing of trigger.txt file
  Fix: Created and moved to the right folder
 
-### 5. 
