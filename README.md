@@ -100,8 +100,22 @@ npm start
  Cause: Because of missing of trigger.txt file
  Fix: Created and moved to the right folder
 
-### AUTHOR 
+### Author 
 Komal Rajput 
-  Currently building real world projects to showcase and enhance my skills.
-  
+- Final-year BCA student
+- Passionate about real-world voice AI, automation, and building full-stack projects.
+- Currently building projects to showcase & enhance skills before internship/job.
+
+ “Building Veda AI to bring a desi Jarvis to life. Let’s make tech speak your language.”
+ 
+### Connect
+ 
+- Email: [komalr635122@gmail.com]
+
+- GitHub: [github.com/KGG-ai]
+
+- WhatsApp: Available on request
+
+
+
 
