@@ -52,7 +52,8 @@ veda-ai/
 ![Terminal Screenshot](https://github.com/user-attachments/assets/ed4f87b1-2bb0-4ae8-8e28-404e0349d05a)
 
 -> Frontend UI:
-![Fontend UI](https://github.com/user-attachments/assets/73655096-f22d-4ea0-a772-062dbc154a6f)
+<img width="1845" height="874" alt="image" src="https://github.com/user-attachments/assets/9da6b9a1-15f6-4dfa-9c3c-0da41666ec9c" />
+
 
 
  ## Planned Upgrades
