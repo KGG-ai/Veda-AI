@@ -2,11 +2,10 @@
 .chat-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 100%;
     max-width: 420px;
-    height: 80vh; /* Use viewport height for better fit */
-    margin: 40px auto; /* More spacing from top */
+    height: 90vh; /* Take almost full height */
+    margin: 10px auto; /* Small margin */
     border: 2px solid #00e0ff;
     border-radius: 16px;
     background: #0a0a0a;
@@ -23,9 +22,7 @@
     font-weight: bold;
     padding: 14px;
     border-bottom: 2px solid #00e0ff;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 /* Messages */
@@ -43,6 +40,7 @@
     border-top: 2px solid #00e0ff;
     background: #111;
     padding: 10px;
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .chat-input input {
@@ -80,8 +78,8 @@
 @media screen and (max-width: 600px) {
     .chat-container {
         width: 95%;
-        height: 85vh; /* full screen look */
-        margin: 20px auto;
+        height: 95vh; /* full screen feel */
+        margin: 5px auto;
     }
 
     .chat-header {
