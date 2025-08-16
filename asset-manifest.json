@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Veda-AI/static/css/main.9f72404a.css",
+    "main.js": "/Veda-AI/static/js/main.d1390d0b.js",
+    "index.html": "/Veda-AI/index.html",
+    "main.9f72404a.css.map": "/Veda-AI/static/css/main.9f72404a.css.map",
+    "main.d1390d0b.js.map": "/Veda-AI/static/js/main.d1390d0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f72404a.css",
+    "static/js/main.d1390d0b.js"
+  ]
+}
