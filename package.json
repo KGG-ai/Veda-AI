@@ -11,8 +11,11 @@
     "react-tsparticles": "^2.12.2"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> fce4d40d53c4f0d51cca6a37d2aeca5937eb296a
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -29,8 +32,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+=======
+>>>>>>> fce4d40d53c4f0d51cca6a37d2aeca5937eb296a
   }
 }
