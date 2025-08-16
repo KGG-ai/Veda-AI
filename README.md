@@ -1,120 +1,77 @@
-# Veda AI – Your Desi Voice Assistant 🇮🇳
+# Veda AI - Multi-Functional Neon AI Chatbot
 
-> A powerful **offline multilingual voice assistant** that listens for your voice, responds with a beautiful female voice, tells jokes, opens apps, and saves reminders — built in Python.
-
----
-
-## Features
-
-- Wake word detection (like Alexa/Google) – responds only to **"Veda"**
-- Beautiful female voice with `pyttsx3`
-- Multilingual support via language switcher
-- Reminder saving + reading
-- Tells jokes to cheer you up
-- Runs system commands like opening Chrome, Notepad, etc.
-- Fully modular & customizable design
+Veda AI is a **futuristic, neon-glow AI chatbot** built with React.js. It can **motivate you, tell jokes, share fun facts, provide date & time info, save reminders, and open websites** like YouTube or Google. It uses **female-only voice synthesis** and features a **floating neon chat UI with a particle background**.
 
 ---
 
-## Tech Stack
+## **Screenshot** 
 
-| Layer        | Technology                 |
-|--------------|-----------------------------|
-| Wake Word    | `pvporcupine`, `pyaudio`    |
-| Voice Input  | `speech_recognition`        |
-| Voice Output | `pyttsx3`                   |
-| Logic        | Python                      |
-| UI           | React (planned)             |
+<img width="1900" height="844" alt="image" src="https://github.com/user-attachments/assets/5136a63b-c0a8-45e9-a571-cb88a47500d1" />
+
+
+## **Features**
+
+- **Motivation, Jokes, Facts**: Get instant motivation, fun jokes, and interesting facts.
+- **Reminders**: Save reminders that persist in local storage.
+- **Date & Time Info**: Ask for today's, yesterday’s, or tomorrow’s date and current time.
+- **Website Launch**: Open websites like YouTube, Google, or Facebook directly from the chat.
+- **Futuristic Neon UI**: Floating neon-glow chat container with particle background.
+- **Female Voice Support**: All responses are spoken in a female voice.
 
 ---
 
-## Project Structure
+## **Tech Stack**
 
-```bash
-veda-ai/
-│
-├── main.py              # Main program file
-├── veda_trigger.py      # Wake word logic using Porcupine
-├── veda_voice.py        # Female voice responses
-├── commands.py          # Runs system commands
-├── reminders.py         # Save + read reminders
-├── joke.py              # Jokes module
-├── liste.py             # Listens via microphone
-├── language_switcher.py # Detect Hindi/English etc.
-├── trigger.txt          # File to enable/disable listening
-├── veda_response.mp3    # Voice assets
-├── index.html           # Placeholder UI (future)
-└── public/              # Trigger/control files
-```
+- **React.js** for frontend UI
+- **CSS** for neon/futuristic design
+- **HTML Canvas** for particle effects
+- **Web Speech API** for text-to-speech functionality
+- **LocalStorage** to save reminders
 
-## SCREENSHOT 
--> Terminal Mockup:
-![Terminal Screenshot](https://github.com/user-attachments/assets/ed4f87b1-2bb0-4ae8-8e28-404e0349d05a)
+---
 
--> Frontend UI:
-<img width="1845" height="874" alt="image" src="https://github.com/user-attachments/assets/9da6b9a1-15f6-4dfa-9c3c-0da41666ec9c" />
+## **Installation**
 
+1. Clone the repository:
 
+git clone https://github.com/KGG-AI/veda-ai.git
+cd veda-ai
 
- ## Planned Upgrades
+2. Install Dependencies:
 
-Claude/OpenAI integration 
-
-Online Wikipedia search
-
-Online weather reports
-
-AI-based summary or translation
-
-Web scraping or automation
-
-## How to Run Locally
-
-```bash
-
-# 1. Start Backend (Python)
-cd backend
-python main.py
-
-# 2. Start Frontend (React)
-cd veda-frontend
 npm install
+
+3. Run the app:
+
 npm start
 
-```
-# Troubleshooting & Error Guide
+4. Open http://localhost:3000 in your browser.
 
-### 1. File NOT FOUND: public/trigger.txt
- - Cause: Missing wake-word trigger file.
- - Fix: Create public/trigger.txt manually
+---
 
-### 2. image not uploading 
- - Cause: File format mismatch
- - Fix: Ensure image is .png and matches src
+## Usage
 
-### 3. Language Error 
- - Cause: Missing native font support
- - Fix: Used deep_translator for fixes
-### 4. Wake Word Not Triggering
- - Cause: Missing trigger.txt or incorrect path
- - Fix: Validate file placement and content
+- Type messages in the chat input box.
+
+- Commands you can try:
+
+- motivate me
+
+- tell me a joke
+
+- tell me a fact
+
+- remind me to call mom
+
+- my reminders
+
+- what is your name
+
+- open youtube / open google / open facebook
+
+- what can you do for me
+
+- what is the time / what is today's date
+
+-> The bot will speak responses using female voice and show neon-glow messages in the chat.
  
-### Author 
-Komal Rajput 
-- Final-year BCA student
-- Passionate about real-world voice AI, automation, and building full-stack projects.
-- Currently building projects to showcase & enhance skills before internship/job.
-
- “Building Veda AI to bring a desi Jarvis to life. Let’s make tech speak your language.”
- 
-### Connect
- 
-- Email: [komalr635122@gmail.com]
-
-- GitHub: [github.com/KGG-ai]
-
-- WhatsApp: Available on request
-
-
-
-
