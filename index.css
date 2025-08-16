@@ -148,56 +148,55 @@ body {
     box-shadow: 0 0 15px #00d0ff, 0 0 25px #00d0ff, 0 0 35px #00d0ff;
     transform: translateY(-2px);
 }
+/* Mobile First Adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px; /* small margin on left/right */
+        font-size: 14px;
+    }
 
-/* ---------- Responsive Styles ---------- */
-@media (max-width: 768px) { /* tablets */
+    header h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 60px 10px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Chat Container Fix */
     .chat-container {
-        width: 400px;
-        height: 550px;
+        width: 95%;
+        max-width: 450px;
+        margin: 0 auto;
         padding: 15px;
-    }
-
-    .chat-box {
-        padding: 12px;
-        margin-bottom: 12px;
-    }
-
-    .input-area input {
-        font-size: 0.95rem;
-        padding: 10px 14px;
-    }
-
-    .input-area button {
-        width: 90px;
-        padding: 10px;
-        font-size: 0.95rem;
-    }
-}
-
-@media (max-width: 480px) { /* mobile */
-    .chat-container {
-        width: 90%;
-        height: 500px;
-        padding: 10px;
-    }
-
-    .chat-header {
-        font-size: 1.5rem;
-    }
-
-    .chat-box {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .input-area input {
-        font-size: 0.9rem;
-        padding: 8px 12px;
-    }
-
-    .input-area button {
-        width: 80px;
-        padding: 8px;
-        font-size: 0.9rem;
+        border-radius: 12px;
     }
 }
