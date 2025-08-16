@@ -1,69 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Veda AI - Animated Girl</title>
-  <style>
-    body {
-      background: #ffeaf4;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .avatar {
-      width: 220px;
-      transition: transform 0.3s ease;
-    }
-
-    .breathing {
-      animation: breathe 3s ease-in-out infinite;
-    }
-
-    @keyframes breathe {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #ff69b4;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0ff0a0" />
+  <meta
+    name="description"
+    content="Veda AI - Futuristic Neon Glow AI Chatbot"
+  />
+  <title>Veda AI</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-  <img src="image.jpg" id="veda" class="avatar" />
-  <audio id="veda-voice" src="voice.mp3"></audio>
-  <button onclick="speakVeda()">🔊 Activate Veda</button>
+<canvas id="particles"></canvas>
 
-  <script src="image.jpg"></script>
-  <script>
-    const veda = document.getElementById("veda");
-    const voice = document.getElementById("veda-voice");
+<div id="root"></div>
 
-    function speakVeda() {
-      veda.classList.add("breathing");
-      voice.play();
-    }
-
-    if (annyang) {
-      const commands = {
-        "hey veda": () => {
-          speakVeda();
-        }
-      };
-      annyang.addCommands(commands);
-      annyang.start();
-    }
-  </script>
 </body>
 </html>
